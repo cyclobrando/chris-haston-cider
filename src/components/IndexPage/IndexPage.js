@@ -1,10 +1,11 @@
 import React from 'react'
+import HeaderBar from '../HeaderBar/HeaderBar'
 
 const IndexPage = () => {
   return (
     <div>
 
-        {/* Header */}
+        <HeaderBar />
 
         <div className='index-slideshow'></div>
 
